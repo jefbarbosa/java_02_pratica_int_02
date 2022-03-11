@@ -10,5 +10,10 @@ public class Main {
         System.out.println(pessoa1.getNome());
         System.out.println(pessoa2.getNome());
         System.out.println(pessoa3.getNome());
+
+        System.out.println(pessoa3.toString());
+        System.out.println("Nome: " + pessoa3.getNome() + " - IMC: " + pessoa3.classificacaoIMC() +
+                " - É maior de idade: " + pessoa3.ehMaiorIdade());
+
     }
 }
